@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAdder.cs" />
     <Compile Include="SimpleMath.cs" />
     <Compile Include="SimpleMathTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

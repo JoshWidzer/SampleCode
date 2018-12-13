@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace SimpleMathTest
 {
-    class SimpleMath : IAdder
+    interface IAdder
     {
-        public int Add(int first, int second)
-        {
-            return first + second;
-        }
+        int Add(int first, int second);
     }
 }
