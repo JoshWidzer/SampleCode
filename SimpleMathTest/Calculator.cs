@@ -33,7 +33,7 @@ namespace SimpleMathTest
 
             for(int index = 0; index < count-1; index++)
             {
-                next = last + current;
+                next = adder.Add(last,current);
                 last = current;
                 current = next;
                 fibNumbers.Add(next);
